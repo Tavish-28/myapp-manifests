@@ -4,7 +4,8 @@ metadata:
   name: hpa-demo-app
   labels:
     app: hpa-demo-app
-    namespace: default
+  name: hpa-demo-app
+  namespace: default
 spec:
   replicas: 1
   selector:
